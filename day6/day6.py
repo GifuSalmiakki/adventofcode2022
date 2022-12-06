@@ -14,7 +14,6 @@ def main():
             for char in group_of_four:
                 if char not in unique_chars:
                     unique_chars += char
-                    print(unique_chars)
 
                 if len(unique_chars) == 14:
                     print(index)
